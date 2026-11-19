@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Resources;
+namespace App\Resources;
 
 use App\Services\ReadinessSnapshot;
-use Pam\Api\Http\JsonResource;
+use Nimbus\Http\JsonResource;
 use Pam\Http\Request;
 
 final readonly class PingResource extends JsonResource

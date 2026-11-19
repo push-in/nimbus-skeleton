@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Requests;
+namespace App\Requests;
 
-use App\Domain\Products\CreateProductData;
-use Pam\Api\Validation\FormRequest;
+use App\Data\CreateProductData;
+use Nimbus\Validation\FormRequest;
 
 final class StoreProductRequest extends FormRequest
 {

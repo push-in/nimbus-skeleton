@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Controllers;
+namespace App\Controllers;
 
-use App\Http\Requests\StoreProductRequest;
-use App\Http\Resources\ProductResource;
+use App\Requests\StoreProductRequest;
+use App\Resources\ProductResource;
 use App\Services\ProductService;
-use Pam\Api\Http\ResourceCollection;
+use Nimbus\Http\ResourceCollection;
 
 final readonly class ProductController
 {

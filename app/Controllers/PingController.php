@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Controllers;
+namespace App\Controllers;
 
-use App\Http\Resources\PingResource;
+use App\Resources\PingResource;
 use App\Services\ReadinessService;
 use Pam\Http\Request;
 

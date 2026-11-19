@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace App\Repositories;
 
-use App\Domain\Products\CreateProductData;
+use App\Data\CreateProductData;
 use App\Models\Product;
-use Pam\Api\Database\ArcanoManager;
+use Nimbus\Database\ArcanoManager;
 
 final readonly class ArcanoProductRepository implements ProductRepository
 {

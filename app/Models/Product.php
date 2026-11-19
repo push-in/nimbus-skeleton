@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Models;
 
-use App\Domain\Products\ProductStatus;
+use App\Models\ProductStatus;
 use Arcano\Annotated\Annotation\Column;
 use Arcano\Annotated\Annotation\Entity;
 

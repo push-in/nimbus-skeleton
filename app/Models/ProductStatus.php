@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Domain\Products;
+namespace App\Models;
 
 enum ProductStatus: int
 {

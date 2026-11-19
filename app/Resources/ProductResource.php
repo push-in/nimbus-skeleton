@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Resources;
+namespace App\Resources;
 
 use App\Models\Product;
-use Pam\Api\Http\JsonResource;
+use Nimbus\Http\JsonResource;
 use Pam\Http\Request;
 
 final readonly class ProductResource extends JsonResource
